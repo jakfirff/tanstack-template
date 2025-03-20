@@ -16,12 +16,17 @@ export const WelcomeScreen = ({
   <div className="flex items-center justify-center flex-1 px-4">
     <div className="w-full max-w-3xl mx-auto text-center">
       <h1 className="mb-4 text-6xl font-bold text-transparent uppercase bg-gradient-to-r from-orange-500 to-red-600 bg-clip-text">
-        <span className="text-white">COOMSTACK</span> HR DEPARTMENT
+        <span className="text-white">PPC</span> HR DEPARTMENT FUNTIME CHAT BOT
       </h1>
       <p className="w-2/3 mx-auto mb-6 text-lg text-gray-400">
-        You can ask me about anything, I might or might not have a good
+        You can fuck off, I might or might not have a good
         answer, but you can still ask.
       </p>
+      <img 
+      src="https://i.imgur.com/4klPkzh.jpeg" 
+      alt="Chat Bot" 
+      className="w-32 h-32 mx-auto mb-4 rounded-full"
+    />
       <form onSubmit={handleSubmit}>
         <div className="relative max-w-xl mx-auto">
           <textarea

@@ -25,7 +25,7 @@ export const WelcomeScreen = ({
       <img 
       src="https://i.imgur.com/4klPkzh.jpeg" 
       alt="Chat Bot" 
-      className="w-32 h-32 mx-auto mb-4 rounded-full"
+      className="w-32 h-32 mx-auto"
     />
       <form onSubmit={handleSubmit}>
         <div className="relative max-w-xl mx-auto">
